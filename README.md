@@ -27,7 +27,7 @@ For help, run:
 ### Available Commands
 
 ```md
-./bin/ksema-cli help
+>> ksema-cli help
   encrypt <plaintext>                     - Encrypts the given plaintext
   decrypt <ciphertext>                    - Decrypts the given ciphertext
   sign <filename>                         - Signs the given file
