@@ -10,7 +10,7 @@ NC='\033[0m' # No Color
 
 # Print with color
 print() {
-    echo -e "${2}${1}${NC}"
+    printf "${2}%s${NC}\n" "$1"
 }
 
 # Error handler
